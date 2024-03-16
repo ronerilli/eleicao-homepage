@@ -23,12 +23,8 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="assets/css/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
-
     <script src="assets/js/jquery-latest.min.js"></script>
-    <script src="assets/css/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    
     <style>
         .hero-bg {
          background-image: url("assets/img/arte.png");
@@ -91,6 +87,9 @@
          animation-delay: 2s;
        }
 
+       .delay-3s {
+         animation-delay: 3s;
+       }
        .card {
             border-radius: 10px;
             background: #fff;
@@ -104,6 +103,39 @@
             transform: scale(1.05);
             box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
           } 
+
+          .introducao {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .como-participar {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #0f5019;
+            color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .como-participar h2 {
+            margin-top: 0;
+        }
+
+        .como-participar ul {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .como-participar ul li {
+            margin-bottom: 10px;
+        }
+        
        </style>
   </head>
 
@@ -133,10 +165,35 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-          <img src="assets/img/Vote.jpg" class="img-fluid mx-auto d-block animated fadeInDown delay-1s" style="max-width: 500px; height: auto;" alt="Grünti">
-           
+          <img src="assets/img/Vote.jpg" class="img-fluid mx-auto d-block" style="max-width: 500px; height: auto;" alt="Grünti">
+          </div> 
        </div>
       </div>
+
+      <div class="titulo text-center" style="padding-top: 20px;">
+        <div class="d-flex justify-content-center" style="background-color: #0f5019; padding: 10px; border-radius: 10px;">
+          <h2 style="margin: 0; color: #fff; font-size: 2.5rem;">Participe da revolução democrática digital!</h2>
+        </div>
+      </div>
+      <div class="row">
+        </div>
+    <main style="background-image: url('assets/img/about.png'); background-size: cover; background-repeat: no-repeat; height: auto;">
+        <section class="como-participar">
+            <p style="color: #fff;">Está na hora de fazer história de uma maneira moderna e acessível.</p>
+            <p style="color: #fff;">Vote de onde estiver, quando quiser. Contribua para moldar o futuro com apenas alguns cliques.</p>
+            <p style="color: #fff;">Junte-se a nós na eleição digital e faça a sua voz ser ouvida como nunca antes.</p>
+        </section>
+
+        <section class="como-participar">
+            <h2 style="color: #fff;">É fácil, é seguro e é o futuro da democracia em suas mãos</h2>
+            <ul style="color: #fff;">
+                <li>Passo 1: Acesse o site da eleição digital.</li>
+                <li>Passo 2: Crie sua conta e faça login.</li>
+                <li>Passo 3: Selecione os candidatos e as propostas que você apoia.</li>
+                <li>Passo 4: Confirme seu voto e finalize a sua participação.</li>
+            </ul>
+        </section>
+    </main>
 
       <section id="documentos" class="featured-services section-bg">  
       <div class="container">
@@ -263,7 +320,7 @@
               </div>
             
             
-              <div class="col-md-4">
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                 <div class="icon-box card">
                   <h4 class="title"><a href="#">Recursos</a></h4>
                   <p class="description text-align: justify;">Período permitido para a propaganda eleitoral gratuita dos candidatos.</p>
@@ -271,7 +328,7 @@
               </div>
             
             
-              <div class="col-md-4">
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                 <div class="icon-box card">
                   <h4 class="title"><a href="#">Dia da Eleição</a></h4>
                   <p class="description text-align: justify;">Data oficial para a votação nas eleições.</p>
