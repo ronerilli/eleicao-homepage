@@ -90,6 +90,20 @@
        .delay-2s {
          animation-delay: 2s;
        }
+
+       .card {
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+            transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+            padding: 14px 80px 18px 36px;
+            cursor: pointer;
+          }
+          
+          .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+          } 
        </style>
   </head>
 
@@ -114,24 +128,79 @@
     
 
     
-    <section id="hero" class="d-flex align-items-center hero-bg">
+    
 
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h1 class="animated fadeInDown delay-1s">VOTE<br>2024</h1>
-            <p class="hero-text animated fadeInUp delay-2s" style="color: black;">Escolha o seu candidato e faça a diferença.</p>
+          <img src="assets/img/Vote.jpg" class="img-fluid mx-auto d-block animated fadeInDown delay-1s" style="max-width: 500px; height: auto;" alt="Grünti">
+           
+       </div>
+      </div>
+
+      <div class="container">
+        <div class="section-title animated fadeInDown delay-1s">
+            <div class="row">
+              <div class="col-lg-12">
+                <span class="subheading">Documentos</span>
+                <h2>Documentos</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="icon-box">
+              <h4><a href="">Lorem ipsum mauris congue </a></h4>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="icon-box">
+              <h4><a href="">Lorem ipsum mauris congue</a></h4>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box">
+              <h4><a href="">Lorem ipsum mauris congue</a></h4>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <h4><a href="">Lorem ipsum mauris congue</a></h4>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <h4><a href="">Lorem ipsum mauris congue</a></h4>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box">
+              <h4><a href="">Lorem ipsum mauris congue</a></h4>
+              <p></p>
+            </div>
+          </div>
 
         </div>
+
       </div>
-    </section>
-
-
+    
+    
     <section id="featured-services" class="featured-services section-bg">
       <div class="container">
     
         <section class="section-title">
-          <div class="container">
+          <div class="container animated fadeInDown delay-1s">
             <div class="row">
               <div class="col-lg-12">
                 <span class="subheading">Menu</span>
@@ -140,74 +209,18 @@
               </div>
             </div>
           </div>
-        </section>
+        
         
         <style>
-        .section-title {
-          background-color: #f7f7f7;
-          padding: 50px 0;
-          text-align: center;
-          animation: fadeInUp 0.5s ease-in-out forwards;
-        }
-        
-        @keyframes fadeInUp {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        
-        .subheading {
-          font-size: 16px;
-          font-weight: 600;
-          color: #999;
-          text-transform: uppercase;
-        }
-        
-        h2 {
-          font-size: 36px;
-          font-weight: 700;
-          color: #333;
-          margin-bottom: 10px;
-        }
-        
-        p {
-          font-size: 16px;
-          font-weight: 400;
-          color: #666;
-          margin: 0 auto;
-          max-width: 800px;
-        }
-        .icon-box.card {
-          background-color:#006400;
-          border-radius: 10px; /* Adjust the radius for desired roundness */
-          padding: 2rem; /* Adjust padding as needed */
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
-        }
-
-        .rounded-card {
-          transition: all 0.2s ease-in-out; /* Add a smooth hover effect */
-        }
-
-        .rounded-card:hover {
-          transform: scale(1.02); /* Slight zoom on hover */
-          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
-}
+          
 
         </style>
-        
-        
-    
         <div class="row">
     
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box card">
               <div class="icon"><i class="bi bi-laptop"></i></div>
-              <h4><a href="#">Cadastro Eleitoral</a></h4>
+              <h4><a href="#">Cadastro de Candidaturas e Chapas</a></h4>
               <p>Lorem ipsum mauris congue</p>
             </div>
           </div>
@@ -220,7 +233,7 @@
             </div>
           </div>
     
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box card">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4><a href="#">Acompanhamento de Candidatos</a></h4>
@@ -234,103 +247,42 @@
     </section>
     
 
-      <section id="services" class="services section-bg">
-        <div class="container">
-  
-          <div class="section-title">
-            <span>Documentos</span>
-            <h2>Documentos</h2>
-          </div>
-  
-          <div class="row">
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="icon-box">
-                <div class="icon"><i class="bi bi-laptop"></i></div>
-                <h4><a href="">Lorem ipsum mauris congue </a></h4>
-                <p></p>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-file"></i></div>
-                <h4><a href="">Lorem ipsum mauris congue</a></h4>
-                <p></p>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4><a href="">Lorem ipsum mauris congue</a></h4>
-                <p></p>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4><a href="">Lorem ipsum mauris congue</a></h4>
-                <p></p>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
-                <div class="icon"><i class="bi bi-card-checklist"></i></div>
-                <h4><a href="">Lorem ipsum mauris congue</a></h4>
-                <p></p>
-              </div>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-              <div class="icon-box">
-                <div class="icon"><i class="bi bi-clipboard-data"></i></div>
-                <h4><a href="">Lorem ipsum mauris congue</a></h4>
-                <p></p>
-              </div>
-            </div>
-  
-          </div>
-  
-        </div>
-      </section><!-- End About Section -->
       
       <section id="testimonials" class="testimonials section-bg">
         <div class="container">
       
-          <div class="section-title">
+          <div class="section-title animated fadeInDown delay-1s">
             <span>Etapas - Cronograma</span>
             <h2>Etapas - Cronograma</h2>
           </div>
       
-            <div class="owl-carousel">
-        
-              <div class="row">
-                <div class="col-lg-6 col-md-6">
-                  <div class="icon-box card rounded-card">
-                    <h4 class="title"><a href="#">Inscrições</a></h4>
-                    <p class="description">Período para realização das inscrições eleitorais.</p>
-                  </div>
+          
+          <div class="row"> 
+              <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                <div class="icon-box card">
+                  <h4 class="title"><a href="#">Inscrições</a></h4>
+                  <p class="description text-align: justify;">Período para realização das inscrições eleitorais.</p>
                 </div>
-                </div>
-              
-        
-              <div class="col-lg-6 col-md-6">
+              </div>
+            
+            
+              <div class="col-md-4">
                 <div class="icon-box card">
                   <h4 class="title"><a href="#">Recursos</a></h4>
-                  <p class="description">Período permitido para a propaganda eleitoral gratuita dos candidatos.</p>
+                  <p class="description text-align: justify;">Período permitido para a propaganda eleitoral gratuita dos candidatos.</p>
                 </div>
               </div>
-        
-              <div class="col-lg-6 col-md-6 mt-4 mt-lg-0">
+            
+            
+              <div class="col-md-4">
                 <div class="icon-box card">
                   <h4 class="title"><a href="#">Dia da Eleição</a></h4>
-                  <p class="description">Data oficial para a votação nas eleições.</p>
+                  <p class="description text-align: justify;">Data oficial para a votação nas eleições.</p>
                 </div>
               </div>
-              </div>
-            </div>
+            </div>     
+          <!-- </div> -->
+
       
         </div>
       </section>
@@ -366,22 +318,5 @@
     
         
       </footer>
-      <script>
-          var owl = $('.owl-carousel');
-          owl.owlCarousel({
-              items:2,
-              loop:true,
-              autoplay:true,
-              autoWidth: true,
-              autoplayTimeout:1000,
-              autoplayHoverPause:true,
-              
-          });
-          $('.play').on('click',function(){
-              owl.trigger('play.owl.autoplay',[500])
-          })
-          $('.stop').on('click',function(){
-              owl.trigger('stop.owl.autoplay')
-          })
-      </script>
+      
   </body>
